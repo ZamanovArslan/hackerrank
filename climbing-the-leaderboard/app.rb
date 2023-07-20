@@ -30,7 +30,6 @@ def climbingLeaderboard(ranked, player)
       ranked_counter += 1
     end
 
-
     if ranked.last > score && !added_last
       position += 1
       added_last = true
